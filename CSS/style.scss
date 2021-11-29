@@ -1,0 +1,27 @@
+$primary: #1a129f;
+$primary-darker : #00006f;
+$secondary: #9443b9;
+$success : #43b943;
+$danger : #b94343;
+$warning : #b1b943;
+$info : #ada;
+
+.home{
+    background-image: url("../_data/bg-Shape.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50%;
+}
+
+.button{
+    padding: 0.5rem 1.5rem !important;
+    border-radius: 0.75rem !important;
+}
+
+.main-navbar{
+    position: absolute;
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
