@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
 $primary: #1a129f;
 $primary-darker : #00006f;
 $secondary: #9443b9;
@@ -6,7 +8,14 @@ $danger : #b94343;
 $warning : #b1b943;
 $info : #ada;
 
-.home{
+*{
+    padding:0 ;
+    margin:0 ;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-content{
     background-image: url("../_data/bg-Shape.svg");
     background-repeat: no-repeat;
     background-position: top right;
@@ -20,11 +29,24 @@ $info : #ada;
 
 .button{
     padding: 0.5rem 1.5rem !important;
-    border-radius: 0.75rem !important;
+    border-radius: 1rem !important;
 }
 
 .main-navbar{
     position: absolute;
+}
+
+.serviecs-content{
+    background-image: url(../_data/bg-3.svg);
+}
+
+.service-box{
+    border-radius: 20px !important;
+    border: none !important;
+}
+
+.service-box-text{
+    height:200px;
 }
 
 @media screen and (max-width : 1366px){
