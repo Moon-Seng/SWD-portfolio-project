@@ -34,10 +34,68 @@
 .service-box {
   border-radius: 20px !important;
   border: none !important;
+  -webkit-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2) !important;
+}
+
+.service-box:hover {
+  -webkit-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5) !important;
+          box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5) !important;
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
 }
 
 .service-box-text {
   height: 200px;
+}
+
+.pricing {
+  background-color: #1a129f1a;
+}
+
+ul.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ul.slick-dots li {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ul.slick-dots li button {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #19129f1a !important;
+}
+
+ul.slick-dots li.slick-active button {
+  width: 20px;
+  height: 20px;
+  background-color: #19129fa1 !important;
+}
+
+ul.slick-dots li button::before {
+  content: "";
 }
 
 @media screen and (max-width: 1366px) {
